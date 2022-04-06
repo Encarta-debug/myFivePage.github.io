@@ -1,0 +1,24 @@
+
+* {
+    /*background-image: url('image/background.jpg');*/
+    font-size: large;
+}
+
+/* styles for the link tags */
+a:hover {
+    color:yellow !important;
+}
+a:visited {
+    color:red;
+}
+a:active {
+    color: blue !important;
+}
+
+/* styles for home page */
+
+@media (max-width: 576px) {
+    .nav {
+        display: block;
+    }
+}
