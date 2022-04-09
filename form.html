@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FORM</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Google Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- External CSS -->
+<link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+            <span class="material-icons">arrow_drop_down</span>
+        </button>
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel"></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">EDUCATIONAL RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="image.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">CONTACT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="more.html">VIEW MORE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <br><br>
+
+        <form>
+            <fieldset>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="fName">Name</span>
+                    <input type="text" placeholder="Full Name" class="form-control" aria-describedby="fName">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Age</span>
+                    <input type="number" placeholder="Enter Your Age" class="form-control">
+                </div>
+
+                <div class="input-group mb-3">           
+                    <span class="input-group-text">Telephone Number</span>
+                    <input type="number" placeholder="Enter a Valid Number" class="form-control">
+                </div> 
+                
+                <div class="">
+                    <label>Gender</label>
+                    <br>
+                    <label>Male</label>
+                    <input type="radio" name="choosegender">
+
+                    <label>Female</label>
+                    <input type="radio" name="choosegender">
+                </div>
+                <br>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text">ID Type</span>
+                    <select class="form-select">
+                        <option selected>Select the ID Type</option>
+                        <option value="1">Student ID</option>
+                        <option value="2">Ghana Card</option>
+                        <option value="3">NHIS Card</option>
+                        <option value="4">Voters ID</option>
+                        <option value="5">Drivers License</option>
+                    </select>
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text">ID Number</span>
+                    <input type="number" placeholder="Enter the ID Number" class="form-control">
+                </div>
+
+                <div class="input-group mb-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <footer>
+            <p> &copy; &mdash; ENCARTA DEVELOP INC</p>
+            <P> 2022 </P>
+        </footer>
+    </div><!-- .container -->
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
